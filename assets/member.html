@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>HOME| Sorapen</title>
+    <title>Members | Sorapen</title>
     <meta name="keywords" content="空飛ぶペンギン,ペンギン,空飛ぶ,劇団,社会人,横浜,横浜市立大学,海星館">
     <meta name="description" content="横浜を中心に活動する社会人劇団「空飛ぶペンギンカンパニー」のWebサイトです。">
     <!-- スマホの表示倍率を100%にリセット -->
@@ -23,9 +23,10 @@
     <link rel="icon" href="images/favicon.png" type="image/png">
     <!-- ホーム画面に追加 -->
     <link rel="apple-touch-icon" href="images/touchIcon.jpg">
+    <!-- Bootstrap4.3.1 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <!-- Bootstrap3.3.7 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- OriginCSS -->
@@ -74,33 +75,31 @@
       </div>
     </nav>
   </header>
-  <section class="hero"></section>
-
   <main>
     <div class="container">
       <section class="block">
           <div class="block_body">
-            <h2 class="block_body_title">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h2>
-
-            <p class="block_body_p"><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
-
-            <h2 class="block_body_title">Header Level 2</h2>
-
-            <ol class="block_body_lists">
-              <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-              <li>Aliquam tincidunt mauris eu risus.</li>
-            </ol>
-
-            <p class="block_body_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p>
-
-            <h3 class="block_body_subtitle">Header Level 3</h3>
-
-            <ul class="block_body_lists">
-              <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-              <li>Aliquam tincidunt mauris eu risus.</li>
-            </ul>
-
-          </div>
+            <h2 class="block_body_title">社員紹介</h2>
+              <div class="row">
+              <div class="col-lg-4">
+                <div class="memberImg">
+                  <img src="images/member01.jpg" alt="yamadataro">
+                </div>
+                <h3>山田太郎</h3>
+                <table class="profile">
+                  <tr>
+                    <th>趣味</th>
+                    <td>映画鑑賞</td>
+                  </tr>
+                  <tr>
+                    <th>好きな食べ物</th>
+                    <td>そば</td>
+                  </tr>
+                </table>
+              </div><!-- /.col-lg-4 -->
+            
+          </div><!-- /.row -->
+        </div><!-- /.block_body -->
       </section>
     </div>
   </main>
