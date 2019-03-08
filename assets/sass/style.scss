@@ -103,6 +103,15 @@ a:hover{
 /*
 *ここからmember.html
 */
+.seiretsu{
+	display: flex;
+	justify-content: space-between;
+	// @media screen and (max-width: 768px) {
+	// display:block;
+	// width: 100%;
+	// }
+}
+
 .memberImg{
 	display: inline-block;
 	width: 250px;
@@ -118,18 +127,18 @@ a:hover{
 	}
 }
 .row {
-	width: 300px;
-	margin: 1rem;
-	text-align: center;
-}
-.profile {
-	tr{
-		padding-bottom:1rem;
+	margin-bottom: 5rem;
+	h3{
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+		text-align: center;
 	}
-	th{
+}
+.profile th, tr{
 	font-weight: normal;
+	height: 3rem;
 }
-}
+
 
 /*
 *ここまでmember.html
