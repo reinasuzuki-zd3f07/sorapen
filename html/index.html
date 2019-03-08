@@ -3,24 +3,26 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>(PageTitle | )SiteTitle</title>
-    <meta name="keywords" content="キーワード,半角のカンマ区切りで6~7語(SEOの効果なし)">
-    <meta name="description" content="検索結果に表示する200語程度のページ説明文(SEOの効果なし)">
+    <title>HOME| Sorapen</title>
+    <meta name="keywords" content="空飛ぶペンギン,ペンギン,空飛ぶ,劇団,社会人,横浜,横浜市立大学,海星館">
+    <meta name="description" content="横浜を中心に活動する社会人劇団「空飛ぶペンギンカンパニー」のWebサイトです。">
     <!-- スマホの表示倍率を100%にリセット -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- iPhoneXでのボックス表示対応(Bootstrapのハンバーガーアイコンが無効になる) -->
     <!-- <meta name="viewport" content="viewport-fit=cover"> -->
     <!-- OGP (Facebookでのフィード表示) -->
-    <meta property="fb:app_id" content="App-ID(15文字の半角数字)" />
-    <meta property="og:title" content="(PageTitle | )SiteTitle" />
+    <!-- <meta property="fb:app_id" content="App-ID(15文字の半角数字)" />
+    <meta property="og:title" content="HOME | Sorapen" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://sample.com/aboutus" />
     <meta property="og:image" content="http://test.com/img/ogp.jpg" />
     <meta property="og:site_name" content="SiteTitle" />
-    <meta property="og:description" content="ページ説明文" />
+    <meta property="og:description" content="ページ説明文" /> -->
 
     <!-- ファビコン -->
     <link rel="icon" href="images/favicon.png" type="image/png">
+    <!-- ホーム画面に追加 -->
+    <link rel="apple-touch-icon" href="images/touchIcon.jpg">
     <!-- Bootstrap3.3.7 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- FontAwesome -->
@@ -52,30 +54,20 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><h1 class="gl-header_title">SiteTitle</h1></a>
+            <a class="navbar-brand" href="#"><h1 class="gl-header_title">空飛ぶペンギンカンパニー</h1></a>
           </div>
-          <div id="navbar" class="navbar-collapse collapse">
+          <div id="navbar" class="navbar-collapse collapse bg-white">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Top</a></li>
-              <li><a href="#">Menu01</a></li>
-              <li><a href="#">Menu02</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Menu03 <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Menu03-1</a></li>
-                  <li><a href="#">Menu03-2</a></li>
-                  <li><a href="#">Menu03-3</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li class="dropdown-header">Menu03-4</li>
-                  <li><a href="#">Menu03-4-1</a></li>
-                  <li><a href="#">Menu03-4-2</a></li>
-                </ul>
-              </li>
+              <li class="active"><a href="#">ホーム</a></li>
+              <li><a href="page-company.html">会社概要</a></li>
+              <li><a href="page-performance.html">公演情報</a></li>
+              <li><a href="member.html">社員紹介</a></li>
+              <li><a href="blog.html">ブログ</a></li>
+              <li><a href="contact.php">お問い合わせ</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="./">Utility01</a></li>
-              <li><a href="#">Utility02</a></li>
-              <li><a href="#">Utility03</a></li>
+              <li><a href="./"><i class="fa fa-twitter-square"></i></a></li>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
             </ul>
           </div>
       </div>
@@ -117,7 +109,7 @@
 
   <footer class="gl-footer">
     <div class="container gl-footer_container">
-      <small>&copy;20XX XXXX Co., Ltd. All Rights Reserved.</small>
+      <small>&copy;2019 SORATOBU PENGUIN COMPANY All Rights Reserved.</small>
     </div>
   </footer>
 
@@ -131,6 +123,9 @@
     gtag('require', 'linkid');
     gtag('config', 'UA-96344339-1');
   </script>
-
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!-- <script src="js/index.js"></script> -->
 </body>
 </html
